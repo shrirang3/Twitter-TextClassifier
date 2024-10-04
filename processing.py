@@ -6,7 +6,7 @@ import streamlit as st
 # Load the classifier and vectorizer
 clf = joblib.load("./Notebook/model_rf.pkl")
 vectorizer = joblib.load("./Notebook/vectorizer.pkl")
-explainer=joblib.load("C:/TMLC/PROJECT 10 (NLP)/Notebook/explainer.pkl")
+explainer=joblib.load("./Notebook/explainer.pkl")
 
 # Function to perform sentiment prediction
 def predict_sentiment(text_data):
