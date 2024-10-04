@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 # Load the classifier and vectorizer
-clf = joblib.load("C:/TMLC/PROJECT 10 (NLP)/Notebook/model_rf.pkl")
-vectorizer = joblib.load("C:/TMLC/PROJECT 10 (NLP)/Notebook/vectorizer.pkl")
+clf = joblib.load("./Notebook/model_rf.pkl")
+vectorizer = joblib.load("./Notebook/vectorizer.pkl")
 explainer=joblib.load("C:/TMLC/PROJECT 10 (NLP)/Notebook/explainer.pkl")
 
 # Function to perform sentiment prediction
